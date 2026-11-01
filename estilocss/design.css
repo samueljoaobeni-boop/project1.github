@@ -1,0 +1,93 @@
+body{
+    background-color: #ffe4c4; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-style:normal;
+    margin: 0;
+    text-align: justify;
+}
+header{
+    background-image: url(img.jpg);
+    min-height: 150px;
+    margin: 0px;
+}
+main {
+    max-width: 900px; margin: 0 auto; padding: 0 16px; 
+}
+h1{
+    color: #ffe4c4;
+    font-weight: 1000;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-align: center;
+    padding-top: 50px;    
+}
+.p-header {
+    color: #ffe4c4;
+    text-align: center; 
+    padding-bottom: 100px;
+    font-weight: 900;
+    font-size: 20px;
+}
+h2{
+    background-color: #ec9679;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.ref{
+    text-align: end;
+    gap: 10px;
+}
+a {
+   color: #fff;
+   gap: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.cartao{ 
+    border-radius: 5px; 
+    border-style:groove;
+    border-color: #b45309;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+.cartoes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;   
+}
+.box{  
+    border-style: groove;
+    border-color: #b45309;
+    border-radius: 5px;
+    padding: 10px;
+}
+.caixa{
+    display: inline-flex;
+    gap: 10px;
+}
+table { 
+    border-radius: 5px; width: 100%; margin: 8px; 
+}
+th, td { 
+    border: 1px double #9a3412; padding: 8px 12px; text-align: left; 
+}
+th { 
+    background: #b45309; color:#fff
+}
+tbody tr:nth-child(even) { 
+    background: #ec9679; 
+}
+
+@media (min-width: 768px) and (max-wdth: 900px){
+    .cartoes{
+       grid-template-columns: 1fr;
+   }
+}
+
+
+
