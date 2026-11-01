@@ -8,9 +8,9 @@ Uma pequena declação de amor á uma princesa admirada.
 
 ### Uma breve informação sobre Armas de fogo
 
--O que é?
--Sua utilização
--Tipos de armas
+- O que é?
+- Sua utilização
+- Tipos de armas
 
 *Idioma: English*
 
@@ -24,8 +24,8 @@ Uma pequena declação de amor á uma princesa admirada.
 
 ## Terminologias utilizadas
 
--html
--Css
+- html
+- Css
 
 ## Como executar
 
